@@ -42,26 +42,3 @@ if (hasDriversLicense) console.log('I can drive :D');
 
 
 /////////////////////// Coding Challenge #1 ///////////////////////
-
-
-let country = 'United Kingdom';
-let continent = 'Europe';
-let population = 67000000;
-let language = 'English';
-let description = `${country} is in ${continent}, and its ${population} million people speak ${language}`
-
-
-console.log(country, continent, population);
-
-let isIsland = true;
-
-console.log(typeof isIsland, typeof population, typeof country, typeof language);
-
-const halfPopulation = (population / 2) + 1;
-console.log(population > 6000000, population > 33000000, description);
-
-if (population > 68000000) {
-  console.log(`${country}'s population is above average`);
-} else {
-  console.log(`${country}'s population is ${33000000 - population} below average`);
-}
