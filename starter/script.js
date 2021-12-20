@@ -26,6 +26,17 @@ if (hasDriversLicense) console.log('I can drive :D');
 */
 
 /////////////////////// Functions ///////////////////////
+// A function is a piece of code that we can reuse over and over again in our code. 
+// Its a little bit like a variable but for like whole chunks of code 
+
+function logger() {
+  console.log('My name is Jonas');
+}
+
+// Invoking, calling or running the function 
+logger();
+logger();
+logger();
 
 
 
